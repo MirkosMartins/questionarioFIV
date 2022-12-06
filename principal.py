@@ -2,7 +2,8 @@ import streamlit as st
 
 st.title('Questionario feminino pos Fertilizacao In Vitro (FIV)')
 
-dimensao1 = st.container('Dimensao 1 Competencia tecnica medica')
+dimensao1 = st.container()
+dimensao1.write('Dimensao 1 Competencia tecnica medica')
 dimensao1.selectbox('Medical care','I received the best possible medical care (examinations and treatments) as far as I can tell')
 dimensao2 = st.container('Dimensao 2 Condicoes tecnico-fisicas ')
 dimensao2.selectbox('Medical care','I received the best possible medical care (examinations and treatments) as far as I can tell')
