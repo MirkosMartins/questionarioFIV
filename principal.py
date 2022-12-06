@@ -39,3 +39,6 @@ dimensao4.write('Dimensão 4 Atmosfera sócio-cultural')
 dimensao4.selectbox('Atmosfera e ambiente',("Havia um ambiente agradável na clínica",
                                             "Meu parceiro foi bem tratado.",
                                             "Fiz exames e entrevistas em privado sem perturbações."))
+
+if st.button('Enviar respostas'):
+  st.write('Obrigado por responder.')
