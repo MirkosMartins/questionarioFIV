@@ -22,7 +22,7 @@ dimensao3.selectbox('Informações durante o tratamento',("Recebi os melhores cu
                                                     "Recebi boas informações sobre os resultados dos exames (por exemplo, ultrassom, análises hormonais e de esperma)."))
 dimensao3.selectbox('Informações após o tratamento',("Recebi boas informações sobre a fertilização e o desenvolvimento do embrião no momento da transferência do embrião.",
                                                    "Recebi boas informações sobre o tempo entre a transferência do embrião e o teste de gravidez."))
-dimensao3.selectbox('Participação',("Tive boas oportunidades de participar das decisões que se aplicavam ao meu tratamento.",
+dimensao3.radio('Participação',("Tive boas oportunidades de participar das decisões que se aplicavam ao meu tratamento.",
                                      "Meu atendimento foi determinado por minhas próprias necessidades de solicitações, e não pelos procedimentos da equipe."))
 dimensao3.selectbox('Responsabilidade/continuidade',("Recebi boas informações sobre qual médico era o responsável pelo meu tratamento.",
                                                  "Recebi boas informações sobre qual parteira era responsável pelo meu tratamento.",
