@@ -4,7 +4,10 @@ st.title('Questionario feminino pos Fertilizacao In Vitro (FIV)')
 
 dimensao1 = st.container()
 dimensao1.write('Dimensao 1 Competencia tecnica medica')
-dimensao1.selectbox('Medical care',("I received the best possible medical care (examinations and treatments) as far as I can tell","I DO NOT received the best possible medical care (examinations and treatments) as far as I can tell"))
+dimensao1.selectbox('Medical care',("I received the best possible medical care (examinations and treatments) as far as I can tell",
+                                    "I DO NOT received the best possible medical care (examinations and treatments) as far as I can tell"))
+dimensao1.selectbox('Pain relief and physical care',("I received effective pain relief during oocyte aspiration.",
+                                                     "I received the best possible physical care during oocyte aspiration (as far as I can tell)."))
 dimensao2 = st.container()
 dimensao2.write('Dimensao 2 Condicoes tecnico-fisicas ')
 dimensao2.selectbox('Care room characteristics',("I had access to a pleasant room while waiting for oocyte aspiration.",
