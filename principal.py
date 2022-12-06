@@ -4,7 +4,7 @@ st.title('Questionario feminino pos Fertilizacao In Vitro (FIV)')
 
 dimensao1 = st.container()
 dimensao1.write('Dimensão 1 Competência médico-técnica')
-dimensao1.selectbox('Cuidados médicos',("Recebi os melhores cuidados médicos possíveis (exames e tratamentos), tanto quanto posso dizer",
+dimensao1.radio('Cuidados médicos',("Recebi os melhores cuidados médicos possíveis (exames e tratamentos), tanto quanto posso dizer",
                                     "NÃO recebi os melhores cuidados médicos possíveis (exames e tratamentos), tanto quanto posso dizer"))
 dimensao1.selectbox('Alívio da dor e cuidados físicos',("Recebi alívio eficaz da dor durante a aspiração de ovócitos.",
                                                      "Recebi o melhor cuidado físico possível durante a aspiração do oócito (tanto quanto posso dizer)."))
