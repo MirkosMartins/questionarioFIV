@@ -3,20 +3,20 @@ import streamlit as st
 st.title('Questionario feminino pos Fertilizacao In Vitro (FIV)')
 
 dimensao1 = st.container()
-dimensao1.write('Dimensao 1 Competencia tecnica medica')
-dimensao1.selectbox('Medical care',("I received the best possible medical care (examinations and treatments) as far as I can tell",
-                                    "I DO NOT received the best possible medical care (examinations and treatments) as far as I can tell"))
-dimensao1.selectbox('Pain relief and physical care',("I received effective pain relief during oocyte aspiration.",
-                                                     "I received the best possible physical care during oocyte aspiration (as far as I can tell)."))
-dimensao1.selectbox('Waiting time',("I received my first appointment at the clinic within acceptable waiting time.",
-                                    "I received this treatment within acceptable waiting time."))
+dimensao1.write('Dimensão 1 Competência médico-técnica')
+dimensao1.selectbox('Cuidados médicos',("Recebi os melhores cuidados médicos possíveis (exames e tratamentos), tanto quanto posso dizer",
+                                    "NÃO recebi os melhores cuidados médicos possíveis (exames e tratamentos), tanto quanto posso dizer"))
+dimensao1.selectbox('Alívio da dor e cuidados físicos',("Recebi alívio eficaz da dor durante a aspiração de ovócitos.",
+                                                     "Recebi o melhor cuidado físico possível durante a aspiração do oócito (tanto quanto posso dizer)."))
+dimensao1.selectbox('Tempo de espera',("Recebi minha primeira consulta na clínica dentro do tempo de espera aceitável.",
+                                    "Recebi este tratamento dentro do tempo de espera aceitável."))
 dimensao2 = st.container()
-dimensao2.write('Dimensao 2 Condicoes tecnico-fisicas ')
-dimensao2.selectbox('Care room characteristics',("I had access to a pleasant room while waiting for oocyte aspiration.",
-                                                 "I had access to a comfortable bed before and after oocyte aspiration.",
-                                                 "I had access to a pleasant treatment room during oocyte aspiration and embryo transfer."))
+dimensao2.write('Dimensão 2 Condições físico-técnicas')
+dimensao2.selectbox('Características da sala de atendimento',("Tive acesso a uma sala agradável enquanto esperava pela aspiração de ovócitos.",
+                                                 "Tive acesso a uma cama confortável antes e depois da aspiração de ovócitos.",
+                                                 "Tive acesso a uma agradável sala de tratamento durante a aspiração de oócitos e transferência de embriões."))
 dimensao3 = st.container()
-dimensao3.write('Dimensao 3 Abordagem de orientacao')
+dimensao3.write('Dimensão 3 Abordagem orientada para o auto-reconhecimento')
 dimensao3.selectbox('Information during treatment',("I received the best possible medical care (examinations and treatments) as far as I can tell",
                                                    "I received good informationregarding the drugs I needed, so that I understood their effects, and how they should be administered.",
                                                     "I received good information about results from examinations (for example ultrasound, hormone and sperm analyses)."))
@@ -35,5 +35,5 @@ dimensao3.selectbox('The Staff’s respect/commitment/empathy',("The doctors wer
                                                               "The midwives/nurses/laboratory personnel showed commitment; ‘cared about me’.",
                                                               "Themidwives/nurses/laboratory personnel seemedto understand how I experienced my situation."))
 dimensao4 = st.container()
-dimensao4.write('Dimensao 4 Atmosfera socio-cultural')
+dimensao4.write('Dimensão 4 Atmosfera sócio-cultural')
 dimensao4.selectbox('Atmosphere and environment',("I received the best possible medical care (examinations and treatments) as far as I can tell"))
